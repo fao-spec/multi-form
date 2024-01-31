@@ -1,0 +1,232 @@
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: rgb(225, 238, 245);
+}
+
+#main-div{
+    width: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+
+#left-div{
+    padding-left: 4%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    display: inline-block;
+    position: relative;
+}
+
+.main-img {
+    display: inline-block;
+    z-index: 0;
+    width: 250px;
+}
+
+img{
+    display: inline-block;
+    z-index: 0;
+    width: 20px;
+}
+
+#left-btn{
+    border-radius: 50%;
+    background-color: blue;
+    display: inline;
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-color: white;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#left-btn1{
+    background-color: hsl(228, 100%, 84%);
+    border-radius: 50%;
+    display: inline;
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-color: white;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#steps-div{
+    margin-top: -180%;
+    margin-bottom: 100%;
+}
+
+#steps{
+    color: gray;
+    margin-top: 0;
+}
+
+p{
+    margin-top: -15px;
+    z-index: 100;
+}
+
+#steps-2{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    background-color: palevioletred;
+    z-index: 100;
+}
+
+#steps-3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.right-side {
+    margin-left: 110px;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 400px;
+}
+
+.sub-topic {
+    padding-top: 100px;
+    color: darkblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info {
+    color: gray;
+    margin-top: 2px;
+    margin-bottom: 40px;
+}
+
+.enter-btn {
+    width: 90px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.enter-btn:hover {
+    background-color: rgb(21, 141, 182);
+}
+
+.right-div {
+    width: 400px;
+    height: 190px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    background-color: rgb(242, 242, 247);
+    position: relative;
+}
+
+.plan {
+    color: darkblue;
+    font-weight: bold;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.top-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.middle-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.final-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.service1 {
+    margin-left: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.service1:hover {
+    color: darkblue;
+}
+
+.service {
+    margin-left: 10px;
+    color: gray;
+}
+
+.cost-main {
+    color: darkblue;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.cost {
+    margin-right: 10px;
+    font-weight: bold;
+    color: gray;
+}
+
+.extra-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.cost-main2 {
+    color: darkblue;
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+hr {
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.back-btn {
+    border: none;
+    color: gray;
+    padding: 10px 4px 10px 4px;
+    border-radius: 10px;
+    position: absolute;
+    left: 12px;
+    bottom: 30px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    color: darkblue;
+}
+
+

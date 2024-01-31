@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/index-3-yearly.css">
+  
+  <title>Frontend Mentor 3-yearly</title>
+</head>
+<body>
+  <div id="main-div">
+    <div id="left-div">
+      <img class="main-img" src="assets/images/bg-sidebar-desktop.svg">
+      <div id="steps-div">
+        <div id="steps-2">
+          <button id="left-btn">1</button>
+          <div id="steps-3">
+            <p id="steps">Step 1</p> 
+            <p>Your info</p>
+          </div>   
+        </div> 
+        <div id="steps-2">
+          <button id="left-btn">2</button>
+          <div id="steps-3">
+            <p id="steps">Step 2</p>
+            <p>Select plan</p> 
+        </div> 
+          </div> 
+        <div id="steps-2">
+          <button id="left-btn1">3</button>
+          <div id="steps-3">
+            <p id="steps">Step 3</p>
+            <p>Add-ons</p> 
+          </div>
+          </div>
+        <div id="steps-2">
+          <button id="left-btn">4</button>
+          <div id="steps-3">
+            <p id="steps">Step 4</p>
+            <p>Summary</p> 
+        </div>
+      </div>
+          </div>
+    </div>
+  <div class="right-side">
+    <div class="sub-topic">
+        Pick adds-ons
+    </div>
+    <div class="info">
+        Add-ons help enhance your gaming experience.
+    </div>
+    <button class="right-btn1">
+        <div class="check"><input onclick="pickButton1()" ondblclick="pickButton('First')" class="right-div1" type="checkbox" checked></div>
+        <div class="img-text">
+            <div class="level">Online service</div>
+            <div class="time">Access to multiplayer games</div>
+        </div>
+        <div class="level-b">+$10/yr</div>
+    </button>
+    <button class="right-btn1 right-btn5">
+        <div class="check"><input onclick="pickButton2()" ondblclick="pickButton('Second')" class="right-div2" type="checkbox" checked></div>
+        <div class="img-text">
+            <div class="level">Larger storage</div>
+            <div class="time">Extra 1TB of cloud save</div>
+        </div>
+        <div class="level-b">+$20/yr</div>
+    </button>
+    <button class="right-btn right-btn6">
+        <div class="check"><input onclick="pickButton3()" ondblclick="pickButton('Third')" class="right-div3" type="checkbox"></div>
+        <div class="img-text">
+            <div class="level">Customizable Profile</div>
+            <div class="time">Custom theme on your profile</div>
+        </div>
+        <div class="level-b">+$20/yr</div>
+    </button>
+    <button onclick="backBtnYear3()" class="back-btn">Go Back</button>
+    <button onclick="myFunctionYear3()" class="enter-btn">
+      Next Step
+    </button>
+  </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Arowosegbe Favour Oluwadamilare</a>.
+  </div>
+
+  <script src="javascript/index2.js"></script>
+</body>
+</html>
