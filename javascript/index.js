@@ -11,7 +11,7 @@ function myFunction4() {
 }
 
 function backBtn2() {
-    location.replace('index1.html');
+    location.replace('index.html');
 }
 
 function backBtn3() {
@@ -42,7 +42,7 @@ function myFunctionYear4() {
 }
 
 function backBtnYear2() {
-    location.replace('index1.html');
+    location.replace('index.html');
 }
 
 function backBtnYear3() {
